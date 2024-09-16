@@ -15,7 +15,7 @@ extern "C" {
 
 #include <bits/alltypes.h>
 
-#define FD_SETSIZE 1024
+#define FD_SETSIZE 32768
 
 typedef unsigned long fd_mask;
 
